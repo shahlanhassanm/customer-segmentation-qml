@@ -16,9 +16,10 @@ Before running the project, ensure you have the following installed:
 - **Python Packages:** Install necessary Python packages (if applicable):
   ```bash
   pip install pandas numpy matplotlib
-Project Structure
-css
-Copy code
+  ```
+
+### Project Structure
+```
 customer-segmentation-qml/
 ├── docs/
 │   ├── methodologies.md
@@ -29,35 +30,38 @@ customer-segmentation-qml/
 │   └── data_processing.py
 ├── Mall_Customers.csv
 └── README.md
-Running the Project
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/customer-segmentation-qml.git
-Navigate to the project directory:
-bash
-Copy code
-cd customer-segmentation-qml
-Run the QML application:
-bash
-Copy code
-qt run src/main.qml
-Methodologies
+```
+
+### Running the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/customer-segmentation-qml.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd customer-segmentation-qml
+   ```
+3. Run the QML application:
+   ```bash
+   qt run src/main.qml
+   ```
+
+## Methodologies
 The project employs several methodologies for customer segmentation, including:
+- **K-means Clustering:** A popular method for partitioning customers into distinct groups based on their features.
+- **Hierarchical Clustering:** An approach to build a hierarchy of clusters.
+- **DBSCAN:** A density-based clustering algorithm that identifies clusters of varying shapes.
 
-K-means Clustering: A popular method for partitioning customers into distinct groups based on their features.
-Hierarchical Clustering: An approach to build a hierarchy of clusters.
-DBSCAN: A density-based clustering algorithm that identifies clusters of varying shapes.
-Refer to the /docs/methodologies.md file for detailed explanations of these techniques.
+Refer to the `/docs/methodologies.md` file for detailed explanations of these techniques.
 
-Data Sources
-The primary dataset used in this project is Mall_Customers.csv, which includes customer demographics and spending behavior. More information about the data and preprocessing steps can be found in the /docs/data_sources.md file.
+## Data Sources
+The primary dataset used in this project is `Mall_Customers.csv`, which includes customer demographics and spending behavior. More information about the data and preprocessing steps can be found in the `/docs/data_sources.md` file.
 
-Visualization Techniques
-QML is used for creating interactive visualizations. Various charts and graphs are implemented to showcase customer segments. For specific visualization methods used, refer to /docs/visualization_techniques.md.
+## Visualization Techniques
+QML is used for creating interactive visualizations. Various charts and graphs are implemented to showcase customer segments. For specific visualization methods used, refer to `/docs/visualization_techniques.md`.
 
-Contributing
+## Contributing
 Contributions are welcome! Please feel free to open issues for discussion or submit pull requests. Ensure to follow the project's coding standards and documentation practices.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
