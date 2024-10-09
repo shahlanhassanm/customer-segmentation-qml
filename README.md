@@ -14,6 +14,16 @@ This project explores customer segmentation techniques using QML (Qt Modeling La
 ### Prerequisites
 Before running the project, ensure you have the following installed:
 - **Qt SDK:** Follow the [QML Installation Guide](https://doc.qt.io/qt-5/gettingstartedqt.html) to install the Qt development environment.
-- **Python Packages:** Install necessary Python packages (if applicable):
+- **Pythcustomer-segmentation-qml/
+├── docs/
+│   ├── methodologies.md
+│   ├── data_sources.md
+│   └── visualization_techniques.md
+├── src/
+│   ├── main.qml
+│   └── data_processing.py
+├── Mall_Customers.csv
+└── README.md
+on Packages:** Install necessary Python packages (if applicable):
   ```bash
   pip install pandas numpy matplotlib
